@@ -52,3 +52,25 @@ Write a Oracle SQL query to display the department number and total salary for e
  Retrieve the EmployeeId, FullName, Department, Gender, ProjectName from the Employee and Projects tables where gender is MALE.
 
  fetch the details of such employees who are currently having any projects as well as they must have an address.
+
+
+
+
+ ---------------------------------RIGHT OUTER JOIN--------------------------------
+ Our requirement is to retrieve the EmployeeId, FullName, Department, Gender, ProjectName from the Employee and Projects tables.
+
+ Our requirement is to retrieve all the Projects along with the Employee details from the Employee and Projects tables by using the Right Outer Join where the gender is Male.
+
+ requirement is, we want to retrieve only those three projects from the Projects table.
+
+ requirement is to fetch the details of all employees along with the project name and address if they have one.
+
+---------------------------------lEFT OUTER JOIN--------------------------------
+Retrieve the EmployeeId, FullName, Department, Gender, ProjectName from the Employee and Projects tables.
+
+
+requirement is to retrieve all the EmployeeId, FullName, Department, Gender, ProjectName from the Employee and Projects tables by using the Left Outer Join where the gender is Male.
+
+requirement is, we want to retrieve only those two employees for which there are non-matching records exist in the Projects table.
+
+requirement is to fetch the details of all employees along with the project name and address if they have.

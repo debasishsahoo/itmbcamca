@@ -2,3 +2,10 @@ fetch all the employees from the Employee table where the employee age is
 between 25 and 27
 
 fetching all employee records whose salary is between 30000 and 70000
+
+fetching all employee records whose salary is between 70000 and 50000
+
+return all the employees from the employee table where the Age not between 25 and
+27
+
+return all the employees from IT AND hr department

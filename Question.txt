@@ -1,0 +1,4 @@
+fetch all the employees from the Employee table where the employee age is
+between 25 and 27
+
+fetching all employee records whose salary is between 30000 and 70000

@@ -154,3 +154,8 @@ CREATE TABLE inventories
       REFERENCES warehouses( warehouse_id ) 
       ON DELETE CASCADE
   );
+
+
+
+
+  https://github.com/debasishsahoo/itmbcamca

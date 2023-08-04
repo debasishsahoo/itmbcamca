@@ -46,7 +46,7 @@ Write a Oracle SQL query to display the department number and total salary for e
 
  Write a Oracle SQL query to display the designations (job id) and total salary allotted for each designation from the company. 
 
-
+------------------------------Inner JOin-------------------------
  Retrieve the EmployeeId, FullName, Department, Gender, ProjectName from the Employee and Projects tables.
 
  Retrieve the EmployeeId, FullName, Department, Gender, ProjectName from the Employee and Projects tables where gender is MALE.

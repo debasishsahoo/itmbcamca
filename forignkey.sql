@@ -42,6 +42,35 @@ CREATE TABLE supplier
   contact_name varchar2(50),
   CONSTRAINT supplier_pk PRIMARY KEY (supplier_id)
 );
+CREATE INDEX supplier_idx
+  ON supplier (supplier_name);
+
+CREATE INDEX supplier_idx
+  ON supplier (supplier_name, contact_name)
+  COMPUTE STATISTICS;
+
+CREATE INDEX supplier_idx
+  ON supplier (UPPER(supplier_name));
+
+SELECT supplier_id, supplier_name, UPPER(supplier_name)
+FROM supplier
+WHERE UPPER(supplier_name) IS NOT NULL
+ORDER BY UPPER(supplier_name)
+
+ALTER INDEX supplier_idx
+  RENAME TO new_supplier_idx;
+
+ALTER INDEX supplier_idx_Upper
+  RENAME TO supplier_index_name;
+
+ALTER INDEX new_supplier_idx
+  REBUILD COMPUTE STATISTICS;
+
+
+
+
+
+
 
 CREATE TABLE products
 ( product_id numeric(10) not null,

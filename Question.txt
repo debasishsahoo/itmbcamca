@@ -74,3 +74,10 @@ requirement is to retrieve all the EmployeeId, FullName, Department, Gender, Pro
 requirement is, we want to retrieve only those two employees for which there are non-matching records exist in the Projects table.
 
 requirement is to fetch the details of all employees along with the project name and address if they have.
+-------------------------------FULL OUTER JOIN ------------------------------
+Our requirement is to write a query, to retrieve CandidateId, FullName, CompanyId, and CompanyName from Company and Candidate tables.
+
+we want to retrieve only the non-matching records from both tables
+
+
+Joining three Tables using Full Outer Join:

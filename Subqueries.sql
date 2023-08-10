@@ -192,3 +192,33 @@ INSERT INTO Proj (ProjectId, Title, ClientId, EmployeeId) VALUES (5, 'Project-5'
 INSERT INTO Proj (ProjectId, Title, ClientId, EmployeeId) VALUES (6, 'Project-6', 2, NULL);
 INSERT INTO Proj (ProjectId, Title, ClientId, EmployeeId) VALUES (7, 'Project-7', 2, NULL);
 INSERT INTO Proj (ProjectId, Title, ClientId, EmployeeId) VALUES (8, 'Project-8', 4, 1004);
+
+DROP TABLE Company;
+CREATE TABLE Company
+(
+    CompanyId INT,
+    CompanyName VARCHAR(20)
+);
+
+INSERT INTO Company VALUES(1, 'DELL');
+INSERT INTO Company VALUES(2, 'HP');
+INSERT INTO Company VALUES(3, 'IBM');
+INSERT INTO Company VALUES(4, 'Microsoft');
+
+DROP TABLE Candidate;
+CREATE TABLE Candidate
+(
+    CandidateId INT,
+    FullName VARCHAR(20),
+    CompanyId INT
+);
+
+INSERT INTO Candidate VALUES(1, 'Ron',1);
+INSERT INTO Candidate VALUES(2, 'Pete',2);
+INSERT INTO Candidate VALUES(3, 'Steve',3);
+INSERT INTO Candidate VALUES(4, 'Smith',NULL);
+INSERT INTO Candidate VALUES(5, 'Ravi',1);
+INSERT INTO Candidate VALUES(6, 'Raj',3);
+INSERT INTO Candidate VALUES(7, 'Kiran',NULL);
+ 
+ 

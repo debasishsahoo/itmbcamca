@@ -1,13 +1,13 @@
 
-DROP TABLE admin.order_items;  
-DROP TABLE admin.orders;
-DROP TABLE admin.inventories;
-DROP TABLE admin.products;
-DROP TABLE admin.product_categories;
-DROP TABLE admin.warehouses;
-DROP TABLE admin.employees;
-DROP TABLE admin.contacts;
-DROP TABLE admin.customers;
-DROP TABLE admin.locations;
-DROP TABLE admin.countries;
-DROP TABLE admin.regions;
+DROP TABLE Hr.order_items;  
+DROP TABLE Hr.orders;
+DROP TABLE Hr.inventories;
+DROP TABLE Hr.products;
+DROP TABLE Hr.product_categories;
+DROP TABLE Hr.warehouses;
+DROP TABLE Hr.employees;
+DROP TABLE Hr.contacts;
+DROP TABLE Hr.customers;
+DROP TABLE Hr.locations;
+DROP TABLE Hr.countries;
+DROP TABLE Hr.regions;
